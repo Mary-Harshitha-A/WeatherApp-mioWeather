@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card2"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview3"
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="#99141414"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="parent">
+
+        <ImageView
+            android:id="@+id/weatherNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/sunny"/>
+
+        <TableLayout
+            android:stretchColumns="*"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/dateDay"
+                    android:layout_marginStart="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/MyLargeTextAppearance"
+                    android:textSize="25sp"/>
+
+                <TextView
+                    android:id="@+id/time_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/MyLargeTextAppearance"
+                    android:textSize="25sp"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/temper"
+                    android:layout_marginStart="40dp"
+                    android:text="@string/Temp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/MyTextAppearance"/>
+
+                <TextView
+                    android:id="@+id/temperature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@style/MyTextAppearance"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textAppearance="@style/MyTextAppearance"
+                    android:layout_marginStart="40dp"
+                    android:id="@+id/weather_desc"
+                    android:text="@string/weather"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+                <TextView
+                    android:id="@+id/desc"
+                    android:textAppearance="@style/MyTextAppearance"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginStart="40dp"
+                    android:textAppearance="@style/MyTextAppearance"
+                    android:id="@+id/text_humidity"
+                    android:text="@string/humidity"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+                <TextView
+                    android:id="@+id/vHumidity"
+                    android:textAppearance="@style/MyTextAppearance"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginStart="40dp"
+                    android:textAppearance="@style/MyTextAppearance"
+                    android:id="@+id/pressure"
+                    android:text="@string/pressure"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+                <TextView
+                    android:id="@+id/vPressure"
+                    android:textAppearance="@style/MyTextAppearance"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginStart="40dp"
+                    android:textAppearance="@style/MyTextAppearance"
+                    android:id="@+id/min"
+                    android:text="@string/tempmin"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+                <TextView
+                    android:id="@+id/vMin"
+                    android:textAppearance="@style/MyTextAppearance"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginStart="40dp"
+                    android:textAppearance="@style/MyTextAppearance"
+                    android:id="@+id/max"
+                    android:text="@string/tempmax"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+                <TextView
+                    android:textAppearance="@style/MyTextAppearance"
+                    android:id="@+id/vMax"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content" />
+            </TableRow>
+
+        </TableLayout>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

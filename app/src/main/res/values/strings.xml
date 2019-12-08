@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">mioWeather</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">close Navigation Drawer</string>
+    <string name="aboutApp">The weather app mioWeather, is an android weather app for obtaining real time dynamic weather data. mioWeather helps user by providing the accurate weather data at user’s current location and also provides weather forecast of every 3 hours for next 5 days.
+The app also helps user to obtain weather information for the location requested for. This app notifies user on forecasts through push notification.
+The advantage of the app is that every time the app is opened, network calls are made to access the current location and fetch the weather data accordingly. To obtain the weather data, the app makes network calls to an API called OpenWeatherMap. The network calls are made easier using Retrofit library.
+</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="notification_forecast">Set time to get notified of weather</string>
+    <string name="locality">location</string>
+    <string name="addLoc">Add a location</string>
+
+
+    <string name="current_location">CurrentLocation</string>
+    <string name="unitsettingtitle">Setting</string>
+    <string name="unitsettingitem1">Temperature</string>
+    <string name="unitsettingitem2">Time Format</string>
+    <string name="unitsettingitem3">Precipitation</string>
+    <string name="unitsettingitem4">Wind Speed</string>
+    <string name="unitsettingitem5">Pressure</string>
+
+    <string name="humidity">Humidity:</string>
+    <string name="pressure">Pressure:</string>
+    <string name="windSpeed">Wind Speed:</string>
+    <string name="sunrise">Sunrise:</string>
+    <string name="sunset">Sunset:</string>
+    <string name="cloudCover">Cloud Cover:</string>
+    <string name="appintro_skip">Skip</string>
+    <string name="humi_icon">Humidity</string>
+    <string name="Detail">Details</string>
+    <string name="tempmin">Minimum temperature:</string>
+    <string name="tempmax">Maximum temperature:</string>
+    <string name="weather">Description:</string>
+    <string name="Time">Time:</string>
+    <string name="Date">Date:</string>
+    <string name="place">Place:</string>
+    <string name="Temp">Temperature:</string>
+
+    <string name="humidityV">%</string>
+    <string name="pressureV">hPa</string>
+    <string name="windSpeedV">km/h</string>
+    <string name="sunriseV">am</string>
+    <string name="sunsetV">pm</string>
+    <string name="cloudCoverV">%</string>
+
+    <string name="textForecast">Every 3 hours forecast for 5 days</string>
+
+    <string-array name="temperature">
+        <item>C</item>
+        <item>F</item>
+    </string-array>
+
+    <string name="weather_key" translatable="false">d9a48945433789ebd7f363e7fe891470</string>
+    <string name="map_key" translatable="false">AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+
+</resources>
